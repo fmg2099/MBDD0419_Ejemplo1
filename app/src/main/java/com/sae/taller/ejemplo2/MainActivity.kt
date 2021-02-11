@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity()
     val contador:Int = 0
     val estatura:Float = 1.89f
     val nombre:String = "Lalo Landa"
-    val igURL:String = "http://www.instagram.com/paquito"
+    val igURL:String = "http://www.instagram.com/lalo"
     val githubURL:String = "https://github.com/paquito"
-    val emailURL:String = "paquito@dominio.com"
+    val emailURL:String = "mailto:f.mandujano@saei.mx"
 
 
 
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity()
 
         //comentario
         //Log.d( "MiApp", "Resultado " + suma( 99.9f, 0.1f)     )
-        // cambiarNombre(nombre)
+        //cambiarNombre(nombre)
 
         //referencia a los botones
         val btnIg:Button = findViewById(R.id.buttonIG)
@@ -57,6 +57,13 @@ class MainActivity : AppCompatActivity()
 
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(igURL)))
         }
+
+        btnEmail.setOnClickListener {
+            Log.d("MiApp", "Abriendo correo")
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(emailURL)))
+        }
+
+
 
 
     }
