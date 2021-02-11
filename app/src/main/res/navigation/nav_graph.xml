@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logros">
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="com.sae.taller.ejemplo2.MainMenu"
+        android:label="MainMenu"
+        tools:layout="@layout/main_menu"
+        >
+        <action
+            android:id="@+id/action_mainMenu_to_logros"
+            app:destination="@id/logros" />
+        <action
+            android:id="@+id/action_mainMenu_to_placeholder_trabajos"
+            app:destination="@id/placeholder_trabajos" />
+        <action
+            android:id="@+id/action_mainMenu_to_placeholder2"
+            app:destination="@id/placeholder2" />
+        <action
+            android:id="@+id/action_mainMenu_to_placeholder3"
+            app:destination="@id/placeholder3" />
+        <action
+            android:id="@+id/action_mainMenu_to_placeholder4"
+            app:destination="@id/placeholder4" />
+    </fragment>
+    <fragment
+        android:id="@+id/logros"
+        android:name="com.sae.taller.ejemplo2.Logros"
+        android:label="fragment_logros"
+        tools:layout="@layout/fragment_logros" />
+    <fragment android:id="@+id/placeholder_trabajos" />
+    <fragment android:id="@+id/placeholder2" />
+    <fragment android:id="@+id/placeholder3" />
+    <fragment android:id="@+id/placeholder4" />
+</navigation>

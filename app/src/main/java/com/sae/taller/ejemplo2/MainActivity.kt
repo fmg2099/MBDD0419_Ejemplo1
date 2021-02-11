@@ -47,11 +47,12 @@ class MainActivity : AppCompatActivity()
         //cambiarNombre(nombre)
 
         //referencia a los botones
-        val btnIg:Button = findViewById(R.id.buttonIG)
-        val btnEmail:Button = findViewById(R.id.buttonEmail)
-        val btnGithub:Button = findViewById(R.id.buttonGithub)
+        //val btnIg:Button = findViewById(R.id.buttonIG)
+        //val btnEmail:Button = findViewById(R.id.buttonEmail)
+        //val btnGithub:Button = findViewById(R.id.buttonGithub)
 
         //modificar el comportamiento al hacer click
+        /*
         btnIg.setOnClickListener {
             Log.d("MiApp", "Abriendo instagram del usuario")
 
@@ -62,6 +63,8 @@ class MainActivity : AppCompatActivity()
             Log.d("MiApp", "Abriendo correo")
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(emailURL)))
         }
+
+         */
 
 
 
