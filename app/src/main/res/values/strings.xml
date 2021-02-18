@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">Mi Perfil</string>
+    <string name="app_name">Paquito App</string>
     <string name="hello_world">Hola mundo.</string>
+
+    <string name="menu_logros">Logros y Premios</string>
+    <string name="menu_trabajos">Empleos Previos</string>
+    <string name="menu_educacion">Educación</string>
+    <string name="menu_portafolio">Portfolio</string>
+    <string name="menu_contacto">Contacto</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_contact">Cómo me puedes contactar</string>
 </resources>

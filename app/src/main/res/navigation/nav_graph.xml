@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/logros">
+    app:startDestination="@id/mainMenu">
     <fragment
         android:id="@+id/mainMenu"
         android:name="com.sae.taller.ejemplo2.MainMenu"
@@ -18,13 +18,13 @@
             app:destination="@id/placeholder_trabajos" />
         <action
             android:id="@+id/action_mainMenu_to_placeholder2"
-            app:destination="@id/placeholder2" />
+            app:destination="@id/placeholder_educacion" />
         <action
             android:id="@+id/action_mainMenu_to_placeholder3"
-            app:destination="@id/placeholder3" />
+            app:destination="@id/placeholder_portafolio" />
         <action
-            android:id="@+id/action_mainMenu_to_placeholder4"
-            app:destination="@id/placeholder4" />
+            android:id="@+id/action_mainMenu_to_contactFragment"
+            app:destination="@id/contactFragment" />
     </fragment>
     <fragment
         android:id="@+id/logros"
@@ -32,7 +32,11 @@
         android:label="fragment_logros"
         tools:layout="@layout/fragment_logros" />
     <fragment android:id="@+id/placeholder_trabajos" />
-    <fragment android:id="@+id/placeholder2" />
-    <fragment android:id="@+id/placeholder3" />
-    <fragment android:id="@+id/placeholder4" />
+    <fragment android:id="@+id/placeholder_educacion" />
+    <fragment android:id="@+id/placeholder_portafolio" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.sae.taller.ejemplo2.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
 </navigation>
