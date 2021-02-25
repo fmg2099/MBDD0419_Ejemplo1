@@ -9,4 +9,11 @@
     <string name="menu_contacto">Contacto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_contact">Cómo me puedes contactar</string>
+
+    <string name="contact_email">mailto:paquito@mail.com</string>
+    <string name="contact_phone">+525511551155</string>
+    <string name="contact_fb">https://facebook.com/paquito2000</string>
+    <string name="contact_tw">https://www.twitter.com/paquito2000</string>
+    <string name="contact_ig">https://instagram.com/paquito</string>
+    <string name="contact_clubhouse">https://clubhouse.com/paquito</string>
 </resources>
