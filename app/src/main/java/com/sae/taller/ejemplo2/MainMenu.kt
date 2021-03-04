@@ -41,17 +41,19 @@ class MainMenu : Fragment()
             findNavController().navigate(R.id.action_mainMenu_to_logros)
         }
 
+        vista.btnEducacion.setOnClickListener {
+            findNavController().navigate(R.id.action_mainMenu_to_formationFragment)
+        }
+
         vista.btnPortfolio.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenu_to_placeholder2)
+            findNavController().navigate(R.id.action_mainMenu_to_contactFragment)
         }
 
         vista.btnTrabajos.setOnClickListener {
             findNavController().navigate(R.id.action_mainMenu_to_placeholder_trabajos)
         }
 
-        vista.btnEducacion.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenu_to_placeholder3)
-        }
+
 
         vista.btnContacto.setOnClickListener {
             findNavController().navigate(R.id.action_mainMenu_to_contactFragment)
