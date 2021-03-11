@@ -46,7 +46,7 @@ class MainMenu : Fragment()
         }
 
         vista.btnPortfolio.setOnClickListener {
-            findNavController().navigate(R.id.action_mainMenu_to_contactFragment)
+            findNavController().navigate(R.id.action_mainMenu_to_portfolioFragment)
         }
 
         vista.btnTrabajos.setOnClickListener {

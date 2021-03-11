@@ -17,14 +17,14 @@
             android:id="@+id/action_mainMenu_to_placeholder_trabajos"
             app:destination="@id/placeholder_trabajos" />
         <action
-            android:id="@+id/action_mainMenu_to_placeholder3"
-            app:destination="@id/placeholder_portafolio" />
-        <action
             android:id="@+id/action_mainMenu_to_contactFragment"
             app:destination="@id/contactFragment" />
         <action
             android:id="@+id/action_mainMenu_to_formationFragment"
             app:destination="@id/formationFragment" />
+        <action
+            android:id="@+id/action_mainMenu_to_portfolioFragment"
+            app:destination="@id/portfolioFragment" />
     </fragment>
     <fragment
         android:id="@+id/logros"
@@ -32,7 +32,6 @@
         android:label="fragment_logros"
         tools:layout="@layout/fragment_logros" />
     <fragment android:id="@+id/placeholder_trabajos" />
-    <fragment android:id="@+id/placeholder_portafolio" />
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.sae.taller.ejemplo2.ContactFragment"
@@ -43,4 +42,9 @@
         android:name="com.sae.taller.ejemplo2.FormationFragment"
         android:label="fragment_formation"
         tools:layout="@layout/fragment_formation" />
+    <fragment
+        android:id="@+id/portfolioFragment"
+        android:name="com.sae.taller.ejemplo2.PortfolioFragment"
+        android:label="fragment_portfolio"
+        tools:layout="@layout/fragment_portfolio" />
 </navigation>
