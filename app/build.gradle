@@ -48,4 +48,15 @@ dependencies {
     //agregado por nosotros
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    //para manejar peticiones HTTP
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-scalars:2.9.0"
+
+    //para manejar el formato JSON
+    implementation "com.squareup.moshi:moshi-kotlin:1.11.0"
+    implementation "com.squareup.retrofit2:converter-moshi:2.9.0"
+
+
+
 }

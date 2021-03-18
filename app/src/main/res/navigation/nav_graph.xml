@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_mainMenu_to_portfolioFragment"
             app:destination="@id/portfolioFragment" />
+        <action
+            android:id="@+id/action_mainMenu_to_webtestFragment"
+            app:destination="@id/webtestFragment" />
     </fragment>
     <fragment
         android:id="@+id/logros"
@@ -47,4 +50,9 @@
         android:name="com.sae.taller.ejemplo2.PortfolioFragment"
         android:label="fragment_portfolio"
         tools:layout="@layout/fragment_portfolio" />
+    <fragment
+        android:id="@+id/webtestFragment"
+        android:name="com.sae.taller.ejemplo2.WebtestFragment"
+        android:label="fragment_webtest"
+        tools:layout="@layout/fragment_webtest" />
 </navigation>

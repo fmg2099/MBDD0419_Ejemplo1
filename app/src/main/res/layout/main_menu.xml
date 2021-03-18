@@ -34,7 +34,7 @@
 
     <LinearLayout
         android:layout_width="264dp"
-        android:layout_height="253dp"
+        android:layout_height="357dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,6 +71,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/menu_contacto" />
+
+        <Button
+            android:id="@+id/btnWebTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prueba Web" />
     </LinearLayout>
 
 

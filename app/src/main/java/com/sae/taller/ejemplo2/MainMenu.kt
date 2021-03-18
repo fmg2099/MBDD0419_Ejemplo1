@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.main_menu.*
@@ -53,10 +54,14 @@ class MainMenu : Fragment()
             findNavController().navigate(R.id.action_mainMenu_to_placeholder_trabajos)
         }
 
-
-
         vista.btnContacto.setOnClickListener {
             findNavController().navigate(R.id.action_mainMenu_to_contactFragment)
+        }
+
+        vista.btnWebTest.setOnClickListener {
+            findNavController().navigate(R.id.action_mainMenu_to_webtestFragment)
+            //Toast.makeText(context, "Proximamente", Toast.LENGTH_LONG).show()
+
         }
 
         //asignar el layout a este controlador
